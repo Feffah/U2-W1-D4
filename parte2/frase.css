@@ -19,27 +19,6 @@ body {
     color: #333333;
 }
 
-body {
-    font-family: 'Bree Serif', serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #ffffff;
-}
-
-#testoAlternato {
-    border: 3px solid #555555;
-    padding: 20px 30px;
-    max-width: 700px;
-}
-
-#testoAlternato p {
-    font-size: 1.5rem;
-    line-height: 1.5;
-    color: #333333;
-}
-
 .parole {
     display: inline-block;
     position: relative;
@@ -56,4 +35,16 @@ body {
     opacity: 0;
     color: #607d8b;
     animation: animazioneParole 9s linear infinite;
+}
+
+.parole i:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.parole i:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.parole i:nth-child(3) {
+    animation-delay: 6s;
 }
